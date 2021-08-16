@@ -36,7 +36,6 @@ public void OnPluginStart()
 	distance_min_headshot = CreateConVar("sm_sniperfalloff_distance_min_headshot", "0", "Distance at which headshot falloff will take effect (sm_sniperfalloff_headshotoverride must be set to 1)", FCVAR_NONE, true, 0.0);
 	distance_max_headshot = CreateConVar("sm_sniperfalloff_distance_max_headshot", "0", "Distance at which headshot falloff will max out (sm_sniperfalloff_headshotoverride must be set to 1)", FCVAR_NONE, true, 0.0);
 	fraction_headshot = CreateConVar("sm_sniperfalloff_fraction_headshot", "1", "Fraction of normal headshot damage player deals at full falloff (sm_sniperfalloff_headshotoverride must be set to 1)", FCVAR_NONE, true, 0.0, true, 1.0);
-	PrintToServer("Loaded sniper falloff :)");
 }
 
 public void OnClientPutInServer( int client ) {
