@@ -19,6 +19,10 @@ sm_sniperfalloff_distance_max_headshot
 
 sm_sniperfalloff_fraction_headshot
 
+sm_sniperfalloff_printDistance
+
+Cvar descriptions are listed clearly in scripting/sniperfalloff.sp
+
 
 Easily visualize the falloff function here: https://www.desmos.com/calculator/rxpyctzxlm
 
